@@ -1,0 +1,17 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mkdir -p dist && browserify app.js --outfile dist/app.js && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "express-history-api-fallback": "^2.0.0",
+    "route-to-spa": "^1.0.0"
+  }
+}
